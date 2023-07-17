@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.editUser {
+    width: 100%;
+    height: 695px;
+    background-color: #0086b112;
+    padding-top: 41px;
+}
+
+.managerUser .delete button.btn.btn-primary {
+    background-color: red;
+    border: none;
+}
+
+.managerUser .update a.btn.btn-primary.btn-lg {
+    margin: 0px;
+}
+
+.viewUser a.btn.btn-primary.btn-lg {margin-left: 8px;}
+
+img.img-fluid {
+    border-radius: 28px;
+}
+
+.showCourse {
+    width: 100%;
+    height: 695px;
+    background-color: #0086b112;
+    padding-top: 41px;
+}
+
+a.btn.btn-primary.btn-lg {
+    padding: 4px 10px;
+    margin-left: 8px;
+}
+
+i.fa-solid.fa-arrow-left {
+    font-size: 26px;
+}
+
+button.btn-close.message {
+    position: absolute;
+    top: 9px;
+    right: 0px;
+}
+
+.editCourse {
+    width: 100%;
+    height: 695px;
+    background-color: #0086b112;
+    padding-top: 41px;
+}
+
+.viewCourse button.btn.btn-primary{
+    margin-left: 6px;
+    border: none;
+    font-size: 17px;
+}
+.deleteCourse button.btn.btn-primary {
+    margin-left: 6px;
+    background-color: #ff0000d1;
+    border: none;
+    font-size: 17px;
+}
+
+.alert.alert-success {
+    margin-bottom: 0;
+    padding: 8px;
+}
+
+.addCourse {
+    width: 100%;
+    height: 695px;
+    background-color: #0086b112;
+    padding-top: 41px;
+}
+
+.managerCourse td.actionCourse {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.managerCourse button.btn.btn-primary.btn-lg {
+    padding: 5px 11px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 9px;
+}
+
+.managerCourse h2 {
+    font-size: 40px;
+    font-weight: 200;
+    font-family: initial;
+}
+
+.managerCourse {
+    width: 100%;
+    /*height: 695px;*/
+    padding-top: 30px;
+    background-color: #0086b10f;
+    background-size: 100px;
+}
+
+.addUser a.btn.btn-primary {
+    margin-bottom: 3px;
+}
+
+.addUser {
+    width: 100%;
+    height: 695px;
+    background-color: #0086b112;
+    padding-top: 41px;
+}
+
+.createUser {
+    margin-bottom: 3px;
+}
+
+td.action .update {
+    padding: 0px 7px;
+}
+
+td.action {
+    display: flex;
+    padding: 34px 0px;
+}
+
+.delete button.btn.btn-primary.btn-lg {
+    padding: 3px 9px;
+    background-color: #ff0000db;
+    border: none;
+}
+
+.managerCourse td {
+    text-align: center;
+}
+
+.managerUser .tittleUser {
+    margin-bottom: 0px;
+}
+
+.managerUser .tittleUser h2 {
+    font-size: 40px;
+    font-weight: 200;
+    font-family: initial;
+}
+
+.managerUser {
+    margin-bottom: 45px;
+}
+
+.managerUser {
+    padding-top: 29px;
+    background-color: #0086b10a;
+    width: 100%;
+    background-size: 100px;
+}
+
+i.fa-solid.fa-plus {
+    margin-right: 7px;
+}
+
+li.nav-item {
+    margin-right: 25px;
+}
+
+li.nav-item.logOut {
+    margin-left: 56px;
+}
+
+.sidebar li.nav-item a.nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+.sidebar a.navbar-brand {
+    color: white;
+    font-size: 24px;
+}
+
+
+.sidebar {
+    background-color: #0086B1;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #0000ff;
+}
+
+.login button.btn.btn-primary {
+    background-color: #0000ff73;
+    margin: auto;display: block;
+    padding: 9px 36px;
+    border: none;
+    margin-top: 13px;
+    font-weight: 200;
+    font-family: cursive;
+}
+
+.tittle h2 {
+    font-size: 33px;
+    font-weight: 200;
+    font-family: cursive;
+}
+
+.tittle {
+    padding-top: 220px;
+}
+
+.login {
+    width: 100%;
+    background-image: url(bg.jpg);
+    height: 757px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
