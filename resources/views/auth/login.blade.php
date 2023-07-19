@@ -28,8 +28,8 @@
                                                 class="fa-solid fa-envelope"></i></span>
                                         <input type="text" id="email" class="form-control"
                                             class="form-control @error('email') is-invalid @enderror" name="email"
-                                            value="{{ old('email') }}" required autocomplete="email"
-                                            aria-describedby="inputGroupMail" autofocus>
+                                            value="{{ old('email') }}"  autocomplete="email"
+                                            aria-describedby="inputGroupMail" >
                                         @error('email')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -45,7 +45,7 @@
                                         <input id="password" type="password"
                                             class="form-control @error('password') is-invalid @enderror" name="password"
                                             autocomplete="current-password" aria-describedby="inputGroupPassword"
-                                            required>
+                                            >
                                         @error('password')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>

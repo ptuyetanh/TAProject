@@ -18,13 +18,13 @@ class AdminMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         if(Auth::check()){
-            if (Auth::user()->role == '1'){
+            if (Auth::user()->role == 'admin'){
                 return $next($request);
             }else{
-                return redirect('/home');
+                return redirect('/home')->with('message','Truy cập quyền user');
             }
         }else{
-            return redirect('/login');
+            return redirect('/login')->with('message','Sai mật khẩu hoặc email');
         }
         return $next($request);
     }

@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Course;
 use App\Models\UserCourse;
-use function PHPUnit\Framework\isEmpty;
 
 class UserController extends Controller
 {
@@ -140,7 +139,7 @@ class UserController extends Controller
             }
         }
 
-        return redirect('admin/users')->withSuccess('Thêm thành công');
+        return redirect('admin/users')->withSuccess('Sửa thành công');
     }
 
     /**
